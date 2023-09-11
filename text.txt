@@ -1,4 +1,4 @@
-<a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+<div class="header-logo">
+                 <img class="logo" src="asset/ISC Logo.png" alt="ISC Logo">
+                <p class="text-logo">ISC Junior Akhwat</p>
+             </div>
