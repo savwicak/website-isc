@@ -7,12 +7,12 @@
 /* section 1 or hero section css*/
 .header{
     width: auto;
-    height: auto;
+    height: 1400px;
     padding: 5%;
     padding-top: 25%;
     display: flex;
     justify-content: space-between;
-    background-image: url("data:image/svg+xml,%3Csvg width='1956' height='1434' viewBox='0 0 1956 1434' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_335_14)'%3E%3Crect width='1956' height='1434' fill='%23EFF6FF'/%3E%3Crect x='-29.5164' y='72.4375' width='260.227' height='285.223' rx='26.7649' transform='rotate(2.93922 -29.5164 72.4375)' fill='%23FFD252'/%3E%3Crect x='1923.61' y='236.554' width='111.789' height='122.527' rx='11.4977' transform='rotate(45 1923.61 236.554)' fill='%23B1CFF7'/%3E%3Crect x='1876.16' y='432.449' width='66.8473' height='73.2683' rx='6.87539' transform='rotate(45 1876.16 432.449)' fill='%23B1CFF7'/%3E%3Crect x='-21.7517' y='757.198' width='220.199' height='241.35' rx='22.648' transform='rotate(45 -21.7517 757.198)' fill='%23B1CFF7'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_335_14'%3E%3Crect width='1956' height='1434' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='1956' height='1428' viewBox='0 0 1956 1434' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_335_14)'%3E%3Crect width='1956' height='1434' fill='%23EFF6FF'/%3E%3Crect x='-29.5164' y='72.4375' width='260.227' height='285.223' rx='26.7649' transform='rotate(2.93922 -29.5164 72.4375)' fill='%23FFD252'/%3E%3Crect x='1923.61' y='236.554' width='111.789' height='122.527' rx='11.4977' transform='rotate(45 1923.61 236.554)' fill='%23B1CFF7'/%3E%3Crect x='1876.16' y='432.449' width='66.8473' height='73.2683' rx='6.87539' transform='rotate(45 1876.16 432.449)' fill='%23B1CFF7'/%3E%3Crect x='-21.7517' y='757.198' width='220.199' height='241.35' rx='22.648' transform='rotate(45 -21.7517 757.198)' fill='%23B1CFF7'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_335_14'%3E%3Crect width='1956' height='1434' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
     background-repeat: no-repeat;
     background-color:#EFF6FF ;
 }
@@ -79,7 +79,7 @@ nav > .header-logo > .text-logo {
 }
  /* Navigation Bar Styles */
  .nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
